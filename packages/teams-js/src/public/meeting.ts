@@ -55,6 +55,11 @@ export namespace meeting {
      * type of the meeting or call
      */
     type?: T;
+
+    /**
+     * call id for the call or meeting
+     */
+    callId?: string;
   }
 
   /**
